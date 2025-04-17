@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Whispr | Anonymous Messaging App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .cta-btn {
+      background: #fff;
+      color: #833ab4;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s ease;
+      text-decoration: none;
+    }
+
+    .cta-btn:hover {
+      background: #f0f0f0;
+      color: #c13584;
+    }
+
+    .section {
+      background: #fff;
+      color: #333;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .feature {
+      background: #f3f3f3;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .feature i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #c13584;
+    }
+
+    footer {
+      background: #262626;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .features {
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .feature {
+        width: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Whispr</h1>
+    <p>Speak freely. Stay anonymous.</p>
+    <a href="/ngl-clone/public/register.php" class="cta-btn">Create Your Link</a>
+  </header>
+
+  <section class="section" id="about">
+    <h2>What is Whispr?</h2>
+    <p>Whispr is a fun and safe way to receive anonymous messages from friends, followers, and fans. Share your link and see what people really think!</p>
+  </section>
+
+  <section class="section" id="features">
+    <h2>Why You'll Love It</h2>
+    <div class="features">
+      <div class="feature">
+        <i class="fas fa-user-secret"></i>
+        <h3>100% Anonymous</h3>
+        <p>No one will know who sent the message. Just pure honesty.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-heart"></i>
+        <h3>Fun & Engaging</h3>
+        <p>Share on Instagram, WhatsApp, or anywhere else to collect messages!</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Mobile Friendly</h3>
+        <p>Fully responsive so your friends can message you on the go.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Whispr. Made with ❤️ Inspired by Instagram.
+  </footer>
+
+</body>
+</html>

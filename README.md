@@ -17,6 +17,7 @@ Whispr is an anonymous messaging platform where users can send and receive anony
 - **Database:** MySQL
 - **Fingerprinting:** FingerprintJS (for anonymous user tracking)
 - **Server:** Apache/Nginx
+![Screenshot_20250416-144710](https://github.com/user-attachments/assets/608460a3-88f4-415d-ae07-dcbc3701438e)
 
 ## Setup Instructions
 
@@ -26,5 +27,6 @@ Whispr is an anonymous messaging platform where users can send and receive anony
 - MySQL
 - Apache/Nginx server
 - Composer (for dependency management)
+- 
 
 

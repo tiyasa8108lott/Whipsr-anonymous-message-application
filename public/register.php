@@ -166,7 +166,7 @@ if (isset($_SESSION['user_id'])) {
 
 <div class="container">
     <div class="header">
-        <div class="logo">NGL Clone</div>
+        <div class="logo">Whispr</div>
         <h2>Register</h2>
     </div>
     

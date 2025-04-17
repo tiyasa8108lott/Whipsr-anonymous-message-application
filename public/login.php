@@ -192,7 +192,7 @@ if (isset($_SESSION['registration_success'])) {
 
 <div class="container">
     <div class="header">
-        <div class="logo">NGL Clone</div>
+        <div class="logo">Whispr</div>
         <h2>Login</h2>
     </div>
     
